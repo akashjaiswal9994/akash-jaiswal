@@ -1,0 +1,542 @@
+
+// THIS PROJECT IS CREATED BY AKASH JAISWAL CLASS 12 A (MATHS GROUP)
+//DATE FINISED -  /11/2017
+
+#include<iostream.h>
+#include<conio.h>
+#include<graphics.h>
+#include<dos.h>
+#include<stdio.h>
+#include<string.h>
+  class space
+  {
+   public:
+   void start()
+   {
+   int  aaad=23,bbbd=22,cccd=21,vvvd=20,tttd=19,yyyd=18,gggd=17,hhhd=16,oood=15,wwwd=14;
+   int  aaas=23,bbbs=22,cccs=21,vvvs=20,ttts=19,yyys=18,gggs=17,hhhs=16,ooos=15,wwws=14;
+   int  aaaa=23,bbbb=22,cccc=21,vvvv=20,tttt=19,yyyy=18,gggg=17,hhhh=16,oooo=15,wwww=14;
+   int  aaa=23,bbb=22,ccc=21,vvv=20,ttt=19,yyy=18,ggg=17,hhh=16,ooo=15,www=14;
+   int  aa=23,bb=22,cc=21,vv=20,tt=19,yy=18,gg=17,hh=16,oo=15,ww=14;
+   int  a=23,b=22,c=21,v=20,t=19,y=18,g=17,h=16,o=15,w=14;
+    int i,j=25,k=23,l=3,m=4,n=3,p=25,q=23;
+  char e[25],r[25];
+
+       for(i=1;i<=10;i++)
+	{
+	  for(int f=1;f<i;f++)
+	 {
+	gotoxy(59,1);
+
+	textcolor(210);
+	{
+	cout<<"\t\t\t\t\t\t\t\t\|\n\
+	       \t\t\t\t\|\n\
+	       \t\t\t\t\|\n\
+	       \t\t\t\t\|\n\
+	       \t\t\t\t\|\n\
+	       \t\t\t\t\|\n\
+	       \t\t\t\t\|\n\
+	       \t\t\t\t\|\n\
+	       \t\t\t\t\|\n\
+	       \t\t\t\t\|\n\
+	       \t\t\t\t\|\n\
+	       \t\t\t\t\|\n\
+	       \t\t\t\t\|\n\
+	       \t\t\t\t\|\n\
+	       \t\t\t\t\|\n\
+	       \t\t\t\t\|\n\
+	       \t\t\t\t\|\n\
+	       \t\t\t\t\|\n\
+	       \t\t\t\t\|\n\
+	       ";
+	       }
+
+	       //delay(200);
+	 gotoxy(l++,10) ;
+	 textcolor(9+i);
+	 cprintf("--------------->");
+	 gotoxy(m++,11);
+	 cprintf("     SHPS     >");
+	 gotoxy(n++,12);
+	 cprintf("--------------->");
+	 delay(80);
+
+	 clrscr();
+	 }
+	 clrscr();
+	}
+clrscr();
+for(i=5;i>=0;i--)
+{
+
+cout<<"\n\n";
+textcolor(5);
+cprintf("SPACE X WILL LAUNCH IN -  ");
+cout<<i;
+textcolor(211);
+cprintf("  sec");
+textcolor(95);
+gotoxy(5,10);
+cprintf("     |");
+gotoxy(5,11);
+cprintf("    |||");
+gotoxy(5,12);
+cprintf("     |");
+gotoxy(5,13);
+cprintf("     !!");
+gotoxy(5,14);
+cprintf("    <  >");
+gotoxy(5,15);
+cprintf("    ^^^^");
+gotoxy(5,16);
+cprintf("   {[()]}");
+gotoxy(5,17);
+cprintf("    ####");
+gotoxy(5,18);
+cprintf("+++++++++++++");
+gotoxy(5,19);
+cprintf("    ####  ");
+gotoxy(5,20);
+cprintf("    ----");
+gotoxy(5,21);
+cprintf("    ****");
+gotoxy(5,22);
+cprintf("   |||||| ");
+gotoxy(1,23);
+cprintf("   ||||||||||||||");
+gotoxy(1,24);
+textcolor(32);
+cprintf("--------------------------------------------------------------------");
+textcolor(12);
+gotoxy(p,23);
+cprintf("(^_^     ^_^)"   )  ;   // last portion  begnning
+gotoxy(p,22);
+cprintf("(<<<<   >>>>)" )  ;
+gotoxy(p,21);
+cprintf("    |___|" )     ;
+gotoxy(p,20);
+cprintf("    | O |"  ) ;
+gotoxy(p,19);
+cprintf("    | R |"   ) ;
+gotoxy(p,18);
+cprintf(" /__| S |__\\"  ) ;
+gotoxy(p,17);
+cprintf("   /| I |\\" ) ;
+gotoxy(p,16);
+cprintf("    |   |" );
+gotoxy(p,15);
+cprintf("    ^ * ^");
+gotoxy(p,14);
+cprintf("     /^\\ ");
+textcolor(123);
+delay(1000);
+clrscr();
+}
+for(i=1;i<=14;i++)
+{
+textcolor(123);
+cout<<"\n\n";
+cprintf(" LAUNCH PAD ");
+textcolor(99);
+gotoxy(6,10);
+cprintf("     |");
+gotoxy(6,11);
+cprintf("    |||");
+gotoxy(6,12);
+cprintf("     |");
+gotoxy(6,13);
+cprintf("     !!");
+gotoxy(6,14);
+cprintf("    <  >");
+gotoxy(6,15);
+cprintf("    ^^^^");
+gotoxy(6,16);
+cprintf("   {[()]}");
+gotoxy(6,17);
+cprintf("    ####");
+gotoxy(6,18);
+cprintf("+++++++++++++");
+gotoxy(6,19);
+cprintf("    ####  ");
+gotoxy(6,20);
+cprintf("    ----");
+gotoxy(6,21);
+cprintf("    ****");
+gotoxy(6,22);
+cprintf("   |||||| ");
+gotoxy(2,23);
+cprintf("   ||||||||||||||");
+gotoxy(2,24);
+textcolor(53);
+cprintf("--------------------------------------------------------------------");
+gotoxy(1,25);
+cprintf("####################################################################");
+cprintf("####################################################################");
+textcolor(12);
+gotoxy(p,a--);
+cprintf("(^_^_    ^_^)"   )  ;   // last portion  begnning
+gotoxy(p,b--);
+cprintf("(<<<<   >>>>)" )  ;
+gotoxy(p,c--);
+cprintf("    |___|" )     ;
+gotoxy(p,v--);
+cprintf("    | O |"  ) ;
+gotoxy(p,t--);
+cprintf("    | R |"   ) ;
+gotoxy(p,y--);
+cprintf(" /__| S |__\\"  ) ;
+gotoxy(p,g--);
+cprintf("   /| I |\\" ) ;
+gotoxy(p,h--);
+cprintf("    |   |" );
+gotoxy(p,o--);
+cprintf("    ^ * ^");
+gotoxy(p,w--);
+cprintf("     /^\\ ");
+textcolor(123);
+delay(400);
+clrscr();
+}
+for(i=1;i<=14;i++)
+{
+
+cout<<"\n\n\n\n";
+textcolor(4);
+cprintf(" Earth Atmosphere");
+textcolor(39);
+gotoxy(25,aa--);
+cprintf("(^_^     ^_^)"   )  ;   // last portion  part 2
+gotoxy(25,bb--);
+cprintf("(<<<<   >>>>)" )  ;
+gotoxy(25,cc--);
+textcolor(74);
+cprintf("    |___|" )    ;
+gotoxy(25,vv--);
+cprintf("    | O |"  ) ;
+gotoxy(25,tt--);
+cprintf("    | R |"   ) ;
+gotoxy(25,yy--);
+cprintf(" /__| S |__\\"  ) ;
+gotoxy(25,gg--);
+cprintf("   /| I |\\" ) ;
+gotoxy(25,hh--);
+cprintf("    |   |" );
+gotoxy(25,oo--);
+textcolor(15);
+cprintf("    ^ * ^");
+gotoxy(25,ww--);
+cprintf("     /^\\ ");
+delay(400);
+clrscr();
+}
+
+int z=25,x=23;
+for(i=1;i<=14;i++)
+{
+textcolor(210);
+cout<<"\n\n\n\n\n";
+cprintf("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
+cout<<"\n\n";
+gotoxy(6,6);
+textcolor(3);
+cprintf("TROPOSPHERE");
+
+gotoxy(25,aaa--);
+cprintf("(^_^     ^_^)"   ) ;   // last portion
+gotoxy(25,bbb--);                                          //part 3
+cprintf("(<<<<   >>>>)" );
+gotoxy(25,ccc--);
+cprintf("    |___|" )     ;
+gotoxy(25,vvv--);
+cprintf("    | O |"  ) ;
+gotoxy(25,ttt--);
+cprintf("    | R | ") ;
+gotoxy(25,yyy--);
+cprintf(" /__| S |__\\ ") ;
+gotoxy(25,ggg--);
+cprintf("   /| I |\\" ) ;
+gotoxy(25,hhh--);
+cprintf("    |   |" );
+gotoxy(25,ooo--);
+cprintf("    ^ * ^");
+gotoxy(25,www--);
+cprintf("     /^\\ ");
+delay(400);
+
+clrscr();
+}
+for(i=1;i<=14;i++)
+{
+textcolor(210);
+cout<<"\n\n\n\n\n";
+cprintf("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
+cout<<"\n\n";
+gotoxy(6,6);
+textcolor(3);
+cprintf("STRATOSPHERE");
+
+gotoxy(25,aaas--);
+cprintf("(^_^     ^_^)"   ) ;   // last portion
+gotoxy(25,bbbs--);                                          //part 3
+cprintf("(<<<<   >>>>)" );
+gotoxy(25,cccs--);
+cprintf("    |___|" )     ;
+gotoxy(25,vvvs--);
+cprintf("    | O |"  ) ;
+gotoxy(25,ttts--);
+cprintf("    | R | ") ;
+gotoxy(25,yyys--);
+cprintf(" /__| S |__\\ ") ;
+gotoxy(25,gggs--);
+cprintf("   /| I |\\" ) ;
+gotoxy(25,hhhs--);
+cprintf("    |   |" );
+gotoxy(25,ooos--);
+cprintf("    ^ * ^");
+gotoxy(25,wwws--);
+cprintf("     /^\\ ");
+delay(400);
+
+clrscr();
+}
+for(i=1;i<=14;i++)
+{
+textcolor(214);
+cout<<"\n\n\n\n\n";
+cprintf("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
+cout<<"\n\n";
+gotoxy(6,6);
+cout<<"\n\n\n\n\n\n";
+textcolor(9);
+cprintf("THERMOSPHERE");
+
+gotoxy(25,aaad--);
+cprintf("(^_^_^_^_^_^)"   ) ;   // last portion
+gotoxy(25,bbbd--);                                          //part 3
+cprintf("(<<<<   >>>>)" );
+gotoxy(25,cccd--);
+cprintf("    |___|" )     ;
+gotoxy(25,vvvd--);
+cprintf("    | O |"  ) ;
+gotoxy(25,tttd--);
+cprintf("    | R | ") ;
+gotoxy(25,yyyd--);
+cprintf(" /__| S |__\\ ") ;
+gotoxy(25,gggd--);
+cprintf("   /| I |\\" ) ;
+gotoxy(25,hhhd--);
+cprintf("    |   |" );
+gotoxy(25,oood--);
+cprintf("    ^ * ^");
+gotoxy(25,wwwd--);
+cprintf("     /^\\ ");
+delay(400);
+
+clrscr();
+}
+
+int d=25,f=23;
+for(i=1;i<=13;i++)
+{
+
+cout<<"\n\n\n";
+textcolor(218);
+cprintf("*      *                  *                 *           *         *   *") ;
+textcolor(259);
+cprintf("*      *                  *                 *           *         *   *") ;
+textcolor(213);
+cprintf("*      *                  *                 *           *         *   *") ;
+textcolor(231);
+cprintf(" *   *          *        *          *   *                    *          *    *");
+cprintf("   *    *                  *                 *           *         *   *") ;
+textcolor(233);
+cprintf("*    *          *        *          *   *                    *          *    *");
+cprintf("  *    *                  *                 *           *         *   *" );
+textcolor(331);
+cprintf("  *  *         *        *          *   *                    *          *    *");
+
+cout<<"\n\n\n";
+textcolor(85);
+cprintf(" ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' ");
+
+cout<<"\n\n\n\n";
+textcolor(39);
+cprintf("EXOSPHERE");
+
+gotoxy(25,aaaa--);
+cprintf("(^_^_^_^_^_^)")  ;   // last portion       part 4
+gotoxy(25,bbbb--);
+cprintf("(<<<<   >>>>)" ) ;
+gotoxy(25,cccc--);
+cprintf("    |___|" );
+gotoxy(25,vvvv--);
+textcolor(14);
+cprintf("    | A |"  ) ;
+gotoxy(25,tttt--);
+cprintf("    | S |"   ) ;
+gotoxy(25,yyyy--);
+cprintf(" /__| A |__\\"  );
+gotoxy(25,gggg--);
+cprintf("   /| N |\\" ) ;
+gotoxy(25,hhhh--);
+cprintf("    |   |" );
+textcolor(75);
+gotoxy(25,oooo--);
+cprintf("    ^ * ^");//<<"\n";
+gotoxy(25,wwww--);
+cprintf("     /^\\ ");//<<"\n";
+delay(400);
+clrscr();
+}
+textcolor(9);
+cprintf("CONGRATULATION ...............");
+cout<<"\n";
+cprintf(" MISSION SUCCESFULL ");
+cout<<"\n";
+textcolor(14);
+cprintf("WE SAFELY REACH IN THE SPACE");
+cout<<"\n\n\n";
+textcolor(218);
+cprintf("*      *      *            *          *       *           *         *   *") ;
+textcolor(259);
+cprintf("*      *         *         *    *             *           *         *   *") ;
+textcolor(213);
+cprintf("*      *                  *                 *           *         *   *") ;
+textcolor(231);
+cprintf(" *   *          *        *          *   *                    *          *    *");
+cprintf("   *    *                  *                 *           *         *   *") ;
+textcolor(233);
+cprintf("*    *          *        *          *   *                    *          *    *");
+cprintf("  *    *                  *                 *           *         *   *" );
+textcolor(331);
+cprintf("  *  *         *        *          *   *                    *          *    *");
+
+cout<<"\n\n\n";
+textcolor(85);
+cprintf(" ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' ");
+
+cout<<"\n\n\n\n";
+textcolor(39);
+cprintf("EXOSPHERE");
+
+gotoxy(25,aaaa--);
+cprintf("(^_^_^_^_^_^)")  ;   // last portion       part 4
+gotoxy(25,bbbb--);
+cprintf("(<<<<   >>>>)" ) ;
+gotoxy(25,cccc--);
+cprintf("    |___|" );
+gotoxy(25,vvvv--);
+textcolor(14);
+cprintf("    | A |"  ) ;
+gotoxy(25,tttt--);
+cprintf("    | S |"   ) ;
+gotoxy(25,yyyy--);
+cprintf(" /__| A |__\\"  );
+gotoxy(25,gggg--);
+cprintf("   /| N |\\" ) ;
+gotoxy(25,hhhh--);
+cprintf("    |   |" );
+textcolor(75);
+gotoxy(25,oooo--);
+cprintf("    ^ * ^");//<<"\n";
+gotoxy(25,wwww--);
+cprintf("     /^\\ ");//<<"\n";
+   }// function end
+  };  //class end
+  void main()
+  {
+  clrscr();
+  space s;
+   int choise ,option;
+    do
+    {
+     delay(100);
+     textcolor(1);
+     cprintf("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
+     cout<<"\n\n";
+     cout<<"\t\t" ;
+     textcolor(12);
+     cprintf("*   SWAMI HARSEWANAND PUBLIC SCHOOL ");
+     cout<<"\n";
+     cout<<"\t\t";
+     textcolor(13);
+     cprintf("*         [ CHURK BRANCH ]");
+     cout<<"\n \t\t";
+     textcolor(11);
+     cprintf("*          WELCOME YOU IN ");
+     cout<<"\n \t\t";
+     textcolor(237);
+     cprintf("*          SPACE X PROGRAM ");
+     cout<<"\n\n \t\t";
+     textcolor(116);
+     cprintf("*     THIS PROJECT IS MADE BY -: ");
+     cout<<"\n \n\t\t";
+     textcolor(18);
+     cprintf("* AKASH JAISWAL - CLASS 12th (MATHS) ");
+     cout<<"\n \t\t";
+     textcolor(18);
+     cout<<"\n\n\n";
+     textcolor(5);
+     cprintf("____________________________________________________________________________");
+     cout<<"\n";
+     textcolor(6);
+     cprintf("============================================================================");
+     cout<<"\n";
+     textcolor(27);
+     cprintf("!    LAUNCH THE SPACE X PROGRAM   - ");
+     cout<<"\t" ;
+     textcolor(211);
+     cprintf("PRESS 1");
+     cout<<"\n";
+     textcolor(71);
+     cprintf("!    EXIT THE SPACE X PROGRAM     - ");
+     cout<<"\t";
+     textcolor(250);
+     cprintf("PRESS 3");
+     cout<<"\n";
+     textcolor(9);
+     cprintf("!    PLEASE ENTER YOUR OPTION     -: ") ;
+     cout<<"\t" ;
+     cin>>choise;
+
+     switch(choise)
+     {
+     case 1:
+     clrscr();
+     cout<<"\n\n\n";
+     cprintf("              GET SET LAUNCH  ");
+     delay(900);
+     clrscr();
+     delay(1000);
+     clrscr();
+     s.start();
+     delay(3000);
+     textcolor(11);
+     clrscr();
+     cprintf("PLEASE WAIT.........MOVING TO USER SCREEN ");
+     delay(2000);
+     clrscr();
+     break;
+     case 2:
+     cout<<"COMING SOON";
+     delay(800);
+     clrscr();
+     break;
+     case 3:
+     textcolor(2);
+     clrscr();
+     cout<<"\n\n";
+     cprintf("             PRESS ANY KEY TO EXIT THE PROGRAM ");
+     cout<<"\n";
+     textcolor(3);
+     cprintf("                         THANK YOU"               );
+     break;
+     default:
+     clrscr();
+     cout<<"         WRONG CHOISE"<<"\n";
+     cout<<" PLEASE CHOSSE CORRECT OPTION";
+     }
+    }while(choise>=1&&choise<=2);
+getch();
+  }
